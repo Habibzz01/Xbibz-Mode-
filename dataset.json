@@ -1,0 +1,76 @@
+{
+    "info": {
+        "pembuat": "Xbibz Official - MR. Nexo444",
+        "versi": "4.2.0",
+        "tanggal": "2023-11-30",
+        "keterangan": "Database pengetahuan untuk Xbibz AI Terminal"
+    },
+    "data": {
+        "sapaan": [
+            {
+                "pola": "hai|halo|hey|hi",
+                "respon": "Halo juga boskuu! 😎 Ada yang bisa aku bantu?"
+            },
+            {
+                "pola": "apa kabar|how are you",
+                "respon": "Aku sih selalu semangat 1000% buat bantu kamu! 🔥 Gimana kabar kamu?"
+            },
+            {
+                "pola": "pagi|siang|sore|malam",
+                "respon": "Met ${time} juga bosqu! Semangat selalu ya 💪"
+            }
+        ],
+        "perintah": [
+            {
+                "pola": "bersihkan terminal|clear",
+                "aksi": "clear_terminal"
+            },
+            {
+                "pola": "keluar|exit|quit",
+                "aksi": "keluar"
+            },
+            {
+                "pola": "menu|tampilkan menu",
+                "aksi": "tampilkan_menu"
+            }
+        ],
+        "pengetahuan": [
+            {
+                "pola": "siapa pembuatmu|who created you",
+                "respon": "Aku dibuat oleh tim Xbibz Official dipimpin oleh MR. Nexo444 dengan sepenuh hati ❤️"
+            },
+            {
+                "pola": "versi kamu|your version",
+                "respon": "Aku versi 4.2.0, yang terbaru dan tercanggih! 🚀"
+            },
+            {
+                "pola": "fitur kamu|your features",
+                "respon": "Aku punya banyak fitur keren: AI canggih, auto-update, database pengetahuan, multi-platform, dan masih banyak lagi! 💯"
+            }
+        ],
+        "kontrol": [
+            {
+                "pola": "update|perbarui",
+                "aksi": "update_sistem"
+            },
+            {
+                "pola": "bersihkan cache|clear cache",
+                "aksi": "clear_cache"
+            },
+            {
+                "pola": "mode developer|dev mode",
+                "aksi": "toggle_dev_mode"
+            }
+        ],
+        "hiburan": [
+            {
+                "pola": "ceritakan joke|kasih joke",
+                "respon": "Kenapa programmer suka bingung? Karena mereka selalu stuck antara 0 dan 1! 🤣"
+            },
+            {
+                "pola": "lagu favorit|favorite song",
+                "respon": "Lagu favoritku pasti 'Binary Heart' oleh The Algorithms! 🎵"
+            }
+        ]
+    }
+}
